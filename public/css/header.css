@@ -1,0 +1,52 @@
+
+.siteheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #eaf5ea;
+  border-bottom: 2px solid #2e8b57;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+  .siteheader .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .siteheader img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .siteheader span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2e8b57;
+    font-family: Arial, sans-serif;
+  }
+
+  .siteheader nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .siteheader nav a {
+    text-decoration: none;
+    color: #006400;
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-bottom-color 0.3s;
+  }
+
+    .siteheader nav a:hover {
+      color: #1f6f46;
+      border-bottom-color: #2e8b57;
+    }
