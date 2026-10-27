@@ -133,17 +133,17 @@ export function trafficlightSwitch(color) {
   const light = color.toLowerCase()
 
   switch (light) {
-    case "red":
-      return "Stop"
+  case "red":
+    return "Stop"
 
-    case "yellow":
-      return "Wait"
+  case "yellow":
+    return "Wait"
 
-    case "green":
-      return "Go"
+  case "green":
+    return "Go"
 
-    default:
-      return "Invalid color"
+  default:
+    return "Invalid color"
   }
 }
 
