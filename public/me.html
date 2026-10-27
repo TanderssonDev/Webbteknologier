@@ -10,6 +10,7 @@
 </head>
 <body>
 
+
   <header class="siteheader">
     <div>
       <a class="brand" href="me.html">
@@ -18,16 +19,24 @@
       </a>
     </div>
 
-
     <nav>
-      <ul>
+      <button class="menu-toggle"
+              id="menu-toggle"
+              type="button"
+              aria-label="Visa meny"
+              aria-expanded="false"
+              aria-controls="nav-links">
+        &#9776;
+      </button>
+
+      <ul id="nav-links">
         <li><a href="me.html">Me</a></li>
         <li><a href="report.html">Redovisa</a></li>
         <li><a href="about.html">Om</a></li>
       </ul>
     </nav>
-
   </header>
+
 
   <div class="wrap">
     <main>
@@ -36,9 +45,9 @@
           <h1>Om mig själv</h1>
 
           <p>
-            Hej! Jag heter Tobias och är 30år gammal. Jag bor i Uppsala med min sambo och arbetar som svetsdykare när jag inte läser kurser på BTH och andra universitet. 
-            Jag har alltid varit intresserad av teknik, datorer och ekonomi. 
-            Därför kändes det som ett naturligt steg att söka kurspaket på BTH inom webbtekologi i samspel med mina ekonomistudier på andra universitet. 
+            Hej! Jag heter Tobias och är 30år gammal. Jag bor i Uppsala med min sambo och arbetar som svetsdykare när jag inte läser kurser på BTH och andra universitet.
+            Jag har alltid varit intresserad av teknik, datorer och ekonomi.
+            Därför kändes det som ett naturligt steg att söka kurspaket på BTH inom webbtekologi i samspel med mina ekonomistudier på andra universitet.
           </p>
 
           <p>
@@ -62,43 +71,47 @@
       </div>
 
 
-  <footer class="sitefooter">
-    <div class="footer-triptych">
-      <div class="footer-column">
-        <h2>Tekniker</h2>
-        <ul>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference">HTML</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
-        </ul>
-      </div>
+      <footer class="sitefooter">
+        <div class="footer-triptych">
+          <div class="footer-column">
+            <h2>Tekniker</h2>
+            <ul>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference">HTML</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+            </ul>
+          </div>
 
-      <div class="footer-column">
-        <h2>Manualer</h2>
-        <ul>
-          <li><a href="https://html.spec.whatwg.org/multipage/">HTML Standard</a></li>
-          <li><a href="https://www.w3.org/Style/CSS/">CSS Standard</a></li>
-          <li><a href="https://www.w3.org/2009/cheatsheet/">Cheat Sheet</a></li>
-        </ul>
-      </div>
+          <div class="footer-column">
+            <h2>Manualer</h2>
+            <ul>
+              <li><a href="https://html.spec.whatwg.org/multipage/">HTML Standard</a></li>
+              <li><a href="https://www.w3.org/Style/CSS/">CSS Standard</a></li>
+              <li><a href="https://www.w3.org/2009/cheatsheet/">Cheat Sheet</a></li>
+            </ul>
+          </div>
 
-      <div class="footer-column">
-        <h2>Verktyg</h2>
-        <ul>
-          <li><a href="https://caniuse.com/">Can I Use</a></li>
-          <li><a href="https://codepen.io/">CodePen</a></li>
-          <li><a href="https://validator.w3.org/">HTML Validator</a></li>
-          <li><a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a></li>
-        </ul>
-      </div>
-    </div>
+          <div class="footer-column">
+            <h2>Verktyg</h2>
+            <ul>
+              <li><a href="https://caniuse.com/">Can I Use</a></li>
+              <li><a href="https://codepen.io/">CodePen</a></li>
+              <li><a href="https://validator.w3.org/">HTML Validator</a></li>
+              <li><a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a></li>
+            </ul>
+          </div>
+        </div>
 
-    <div class="footer-bottom">
-      <p>&copy; <span id="current-year"></span> Kursen Webtec. Copyright av mig.</p>
-    </div>
-  </footer>
+        <div class="footer-bottom">
+          <p>&copy; <span id="current-year"></span> Kursen Webtec. Copyright av mig.</p>
+        </div>
+      </footer>
 
 
-  <script type="module" src="js/hello.js"></script>
+      <script type="module" src="js/hello.js"></script>
+
+      <script type="module" src="js/hello.js"></script>
+      <script src="js/responsive-design.js"></script>
 </body>
 </html>
+

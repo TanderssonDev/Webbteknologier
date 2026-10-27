@@ -3,6 +3,8 @@
 @import url("normalize.css");
 @import url("header.css");
 @import url("footer.css");
+@import url("responsive-design.css");
+
 
 
 body {
@@ -36,9 +38,3 @@ main {
     padding: 20px;
     border-radius: 8px;
   }
-
-@media (max-width: 700px) {
-  .report-layout {
-    grid-template-columns: 1fr;
-  }
-}

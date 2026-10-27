@@ -15,17 +15,30 @@
       </a>
     </div>
 
-
     <nav>
-      <ul>
+      <button class="menu-toggle"
+              id="menu-toggle"
+              type="button"
+              aria-label="Visa meny"
+              aria-expanded="false"
+              aria-controls="nav-links">
+        &#9776;
+      </button>
+
+      <ul id="nav-links">
         <li><a href="me.html">Me</a></li>
         <li><a href="report.html">Redovisa</a></li>
         <li><a href="about.html">Om</a></li>
       </ul>
     </nav>
-
   </header>
-  <div class="report-layout">
+
+  <div class="about-layout">
+    <aside>
+      <h2>Webbtekniker</h2>
+      <p>På webbplatsen använder jag HTML, CSS och JavaScript.</p>
+    </aside>
+
     <main>
       <h1>Om webbplatsen</h1>
 
@@ -50,6 +63,7 @@
       <img src="img/leaf.png"
            alt="Grönt löv som symboliserar webbplatsen"
            width="150">
+
       <p>
         <a href="https://github.com/dbwebb-se/webtec">
           Kursens GitHub-repo
@@ -57,6 +71,7 @@
       </p>
     </aside>
   </div>
+
   <footer class="sitefooter">
     <div class="footer-triptych">
       <div class="footer-column">
@@ -92,5 +107,8 @@
       <p>&copy; Kursen Webtec. Copyright av mig.</p>
     </div>
   </footer>
+
+  <script src="js/responsive-navbar.js"></script>
+
 </body>
 </html>

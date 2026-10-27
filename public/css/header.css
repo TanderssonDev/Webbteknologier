@@ -50,3 +50,18 @@
       color: #1f6f46;
       border-bottom-color: #2e8b57;
     }
+
+  .siteheader nav {
+    position: relative;
+  }
+
+  .siteheader .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #006400;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+
